@@ -8868,9 +8868,21 @@ label {
   color: #fff; }
 
 .footer {
-  padding-left: 17.1875rem;
+
+
+    padding-left: 17.1875rem;
+
+
   background-color: #f6f6f6;
-  font-size: 13px; }
+  font-size: 13px;
+
+  /* background-color: red;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px; */
+
+}
   .footer .copyright {
     padding: 0.9375rem; }
     .footer .copyright p {

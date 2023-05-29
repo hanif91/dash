@@ -1,4 +1,4 @@
-<div class="nav-header">
+<div class="nav-header" >
     <a href="#" class="brand-logo">
         <svg class="logo-abbr" width="53" height="53" viewbox="0 0 53 53">
             <path d="M21.6348 8.04782C21.6348 5.1939 23.9566 2.87204 26.8105 2.87204H28.6018L28.0614 1.37003C27.7576 0.525342 26.9616 0 26.1132 0C25.8781 0 25.639 0.0403711 25.4052 0.125461L7.3052 6.7133C6.22916 7.105 5.67535 8.29574 6.06933 9.37096L7.02571 11.9814H21.6348V8.04782Z" fill="#759DD9"></path>
@@ -12,7 +12,7 @@
     </a>
 
     <div class="nav-control">
-        <div class="hamburger">
+        <div class="hamburger is-active">
             <span class="line"></span><span class="line"></span><span class="line"></span>
         </div>
     </div>
@@ -20,6 +20,7 @@
 
 
 <div class="dlabnav">
+
     <div class="dlabnav-scroll">
         <ul class="metismenu" id="menu">
             <li class="dropdown header-profile">

@@ -29,18 +29,21 @@
 </head>
 
 <body>
-    <div id="main-wrapper">
-        @yield('content')
+    <div id="main-wrapper" class="show menu-toggle">
 
         @include('includes.header')
 
-
         @include('includes.sidebar')
 
+        @yield('content')
 
-        @include('includes.sidebar')
+
+
+
+
     </div>
 
+    @include('includes.footer')
     @include('includes.scripts')
 	<script>
 		jQuery(document).ready(function(){
