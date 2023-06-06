@@ -41,7 +41,7 @@
                         </div>
                         <div class="text-end">
                             <h2 class="text-white invoice-num">{{ $arrayrow1["btn2"] }}</h2>
-                            <span class="text-white fs-18">{{ $arrayrow1["btn2ketz"] }}</span>
+                            <span class="text-white fs-18">{{ $arrayrow1["btn2ket"] }}</span>
                         </div>
                     </div>
                 </div>
