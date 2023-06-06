@@ -18,5 +18,5 @@ use App\Http\Controllers\HomeController;
 // });
 
 // Route::redirect('/', '/login');
-
+Route::redirect('/', '/dash');
 Route::resource('dash', HomeController::class);
