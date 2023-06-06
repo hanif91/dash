@@ -6,7 +6,13 @@
 <div class="content-body">
     <div class="container-fluid">
          {{-- Row Baris Pertama  --}}
+
         <div class="row invoice-card-row">
+            {{-- <div class="card-header">
+                <h3 class="">Keuangan</h3>
+            </div> --}}
+
+
             <div class="col-xl-3 col-xxl-3 col-sm-6">
                 <div class="card bg-warning invoice-card">
                     <div class="card-body d-flex justify-content-between">
@@ -17,8 +23,8 @@
 
                         </div>
                         <div class="text-end">
-                            <h2 class="text-white invoice-num">2478</h2>
-                            <span class="text-white fs-18">Surplus/Defisit Kas</span>
+                            <h2 class="text-white invoice-num">{{ $arrayrow1["btn1"] }}</h2>
+                            <span class="text-white fs-18">{{ $arrayrow1["btn1ket"] }}</span>
                         </div>
                     </div>
                 </div>
@@ -34,8 +40,8 @@
 
                         </div>
                         <div class="text-end">
-                            <h2 class="text-white invoice-num">983</h2>
-                            <span class="text-white fs-18">Laba / Rugi</span>
+                            <h2 class="text-white invoice-num">{{ $arrayrow1["btn2"] }}</h2>
+                            <span class="text-white fs-18">{{ $arrayrow1["btn2ketz"] }}</span>
                         </div>
                     </div>
                 </div>
