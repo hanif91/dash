@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <div id="main-wrapper" class="show menu-toggle">
+    <div id="main-wrapper" class="show">
 
         @include('includes.header')
 

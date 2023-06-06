@@ -57,8 +57,8 @@
 
                         </div  >
                         <div class="text-end">
-                            <h2 class="text-white invoice-num">1256</h2>
-                            <span class="text-white fs-18">Pembacaan Yang Belum terbaca</span>
+                            <h2 class="text-white invoice-num">{{ $arrayrow1["btn3"] }}</h2>
+                            <span class="text-white fs-18">{{ $arrayrow1["btn3ket"] }}</span>
                         </div>
                     </div>
                 </div>
@@ -74,8 +74,8 @@
                         </div>
                         <div class="text-end">
 
-                            <h2 class="text-white invoice-num">652</h2>
-                            <span class="text-white fs-18">Keluhan Yang belum tertangani</span>
+                            <h2 class="text-white invoice-num">{{ $arrayrow1["btn4"] }}</h2>
+                            <span class="text-white fs-18">{{ $arrayrow1["btn4ket"] }}</span>
                         </div>
                     </div>
                 </div>
